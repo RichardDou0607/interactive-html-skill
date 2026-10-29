@@ -1,0 +1,15 @@
+{
+  "name": "interactive-html-skill",
+  "version": "1.0.0",
+  "description": "Standalone, dependency-free interactive HTML dashboards for any project, harness, or model",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "example": "node scripts/generate.mjs --input examples/project.json --output examples/observatory.html --force",
+    "test": "node scripts/test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
